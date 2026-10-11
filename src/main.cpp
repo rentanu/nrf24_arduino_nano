@@ -1,3 +1,9 @@
+// Proyek ini menggunakan modul nRF24L01 untuk komunikasi nirkabel antara dua papan Arduino Nano.
+// Satu papan berfungsi sebagai pengirim (transmitter) dan yang lain sebagai penerima (receiver).
+// Pastikan untuk menghubungkan pin CE dan CSN dari modul nRF24L01 ke pin yang sesuai pada papan Arduino Nano, dan sesuaikan pengaturan pin dalam kode ini jika perlu.  
+// Pastikan juga untuk menginstal pustaka RF24 melalui Library Manager di Arduino IDE sebelum mengunggah kode ini ke papan Arduino Nano.  
+
+
 #include <Arduino.h>
 #include <nRF24L01.h>
 #include <RF24.h>
